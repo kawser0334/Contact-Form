@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline:0;
+}
+body{
+    background: url(gradient-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* form css part start */
+.form-main{
+    width: 500px;
+    height: 600px;
+    background-color:rgb(228,201,156);
+    /* background:linear-gradient(#82ccdd,#60a3bc); */
+    opacity: 85%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow:1px 1px 20px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-main form label{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    }
+.form-main form label span{
+    color: red;
+    font-size: 20px;
+}
+.form-main form input{
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 183, 255);
+    background:transparent ;
+    margin-top: 5px;
+      
+}
+.form-main form input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.form-main form button{
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 10px 5px;
+    margin-left: 22px;
+}
+.form-main form button:hover{
+    background-color:  rgb(255, 137, 2);
+}
+/* form css part end */
